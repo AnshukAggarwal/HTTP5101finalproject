@@ -1,0 +1,37 @@
+﻿body {
+}
+.cwidth {
+    max-width: 1080px;
+    margin: 0 auto;
+}
+#site-name p{
+    font-size:1em;
+}
+.output, #header, #footer,#page{
+    padding:2em;
+    border:1px solid black;
+    margin:1em;
+}
+.flex{
+    display:flex;
+}
+.flex li{
+    list-style:none;
+    margin-left:10px;
+    color:black;
+}
+.flex li a{
+    text-decoration:none;
+}
+.form-row{
+    margin-bottom:10px;
+}
+#header{
+    background:mediumaquamarine;
+    height:10vh;
+}
+#header.flex{
+    justify-content:space-between;
+    /*hi*/
+}
+

@@ -11,43 +11,34 @@ namespace http5101finalproject_N01399681
 {
 
 
-    public partial class SiteMaster
+    public partial class ShowPage
     {
 
         /// <summary>
-        /// header control.
+        /// page control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl header;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl page;
 
         /// <summary>
-        /// form1 control.
+        /// page_title control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl page_title;
 
         /// <summary>
-        /// body control.
+        /// page_body control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.ContentPlaceHolder body;
-
-        /// <summary>
-        /// footer control.
-        /// </summary>
-        /// <remarks>
-        /// Auto-generated field.
-        /// To modify move field declaration from designer file to code-behind file.
-        /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlGenericControl footer;
+        protected global::System.Web.UI.HtmlControls.HtmlGenericControl page_body;
     }
 }

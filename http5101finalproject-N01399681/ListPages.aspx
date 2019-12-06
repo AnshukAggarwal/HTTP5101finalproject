@@ -14,8 +14,8 @@
         <a href="AddPage.aspx">New Page</a>
         <div class="output" runat="server">
             <div class="output">
-                <div class="col">Page Title</div>
-                <div class="col">Page Body</div>
+                <div class="col2">Page Title</div>
+                <div class="col2last">Page Body</div>
             </div>
             <div id="pages_result" runat="server">
 

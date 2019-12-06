@@ -32,7 +32,17 @@
 }
 #header.flex{
     justify-content:space-between;
-    /*hi*/
-    /*hi*/
+}
+
+.col2 {
+    width: 45.45%;
+    float: left;
+    margin-right: 9.09%;
+}
+
+.col2last {
+    width: 45.45%;
+    float: left;
+    margin-right: 0;
 }
 

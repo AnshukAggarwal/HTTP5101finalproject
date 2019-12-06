@@ -35,10 +35,10 @@ namespace http5101finalproject_N01399681
                 string pageid = row["PAGEID"];
 
                 string pagetitle = row["PAGETITLE"];
-                pages_result.InnerHtml += "<div class=\"col\"><a href=\"ShowPage.aspx?pageid=" + pageid + "\">" + pagetitle + "</a></div>";
+                pages_result.InnerHtml += "<div class=\"col2\"><a href=\"ShowPage.aspx?pageid=" + pageid + "\">" + pagetitle + "</a></div>";
 
                 string pagebody = row["PAGEBODY"];
-                pages_result.InnerHtml+= "<div class=\"col\">" + pagebody + "</div>";
+                pages_result.InnerHtml+= "<div class=\"col2last\">" + pagebody + "</div>";
 
                 pages_result.InnerHtml += "</div>";
 

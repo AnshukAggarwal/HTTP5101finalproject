@@ -7,6 +7,7 @@
             <asp:TextBox ID="page_search" runat="server"></asp:TextBox>
             <asp:Button runat="server" text="submit"/>
         </div>
+        <%--Create a link to add a new Page--%>
         <a href="AddPage.aspx">New Page</a>
         <div class="table" runat="server">
             <div class="listitem">

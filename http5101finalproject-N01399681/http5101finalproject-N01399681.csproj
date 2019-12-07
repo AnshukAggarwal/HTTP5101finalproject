@@ -272,6 +272,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Data\" />
+    <Folder Include="WireFrames\" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

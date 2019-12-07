@@ -24,7 +24,7 @@ namespace http5101finalproject_N01399681
             new_page.SetPtitle (page_title.Text);
             new_page.SetPbody(page_body.Text);
 
-            //add the student to the database
+            //add the page to the database
             db.AddPage(new_page);
 
 

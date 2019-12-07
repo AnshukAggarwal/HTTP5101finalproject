@@ -11,6 +11,7 @@ namespace http5101finalproject_N01399681
             ListCustomHeader(db);
 
         }
+        /*This method was referenced from the in-class example*/
         protected void ListCustomHeader(WEBPAGEDB db)
         {
             string query = "select PAGEID, PAGETITLE from pages";

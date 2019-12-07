@@ -64,7 +64,7 @@ namespace http5101finalproject_N01399681
             }
             try
             {
-                Debug.WriteLine("I am trying to update this page");
+                
                 db.UpdatePage(Int32.Parse(pageid), new_page);
                 Response.Redirect("ShowPage.aspx?pageid=" + pageid);
             }

@@ -25,7 +25,7 @@ namespace http5101finalproject_N01399681
                 query += " WHERE PAGEID like '%" + searchkey + "%' ";
                 query += " PAGETITLE like '%" + searchkey + "%' ";
             }
-
+            /*create DB variable*/
             WEBPAGEDB db = new WEBPAGEDB();
             List<Dictionary<String, String>> rs = db.List_Query(query);
             foreach (Dictionary<String, String> row in rs)

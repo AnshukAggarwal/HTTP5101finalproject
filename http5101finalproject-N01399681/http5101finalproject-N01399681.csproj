@@ -131,6 +131,7 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
+    <Content Include="customheader.ascx" />
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -211,6 +212,13 @@
     </Compile>
     <Compile Include="ContentPage.aspx.designer.cs">
       <DependentUpon>ContentPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="customheader.ascx.cs">
+      <DependentUpon>customheader.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="customheader.ascx.designer.cs">
+      <DependentUpon>customheader.ascx</DependentUpon>
     </Compile>
     <Compile Include="Default.aspx.cs">
       <DependentUpon>Default.aspx</DependentUpon>

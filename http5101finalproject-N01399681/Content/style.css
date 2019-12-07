@@ -34,15 +34,39 @@
     justify-content:space-between;
 }
 
-.col2 {
-    width: 45.45%;
+#pages_result {
+    width: 100%;
+}
+
+.listitem {
+    background: #fefefe;
+    padding: 12px 5%;
+    width: 90%;
+    overflow: hidden;
+}
+
+    .listitem:after {
+        clear: both;
+    }
+
+    .listitem:nth-child(2n) {
+        background: #e5ecf4;
+    }
+
+    .listitem:hover {
+        background: #effffa;
+    }
+
+.col2, .col2last {
     float: left;
-    margin-right: 9.09%;
+    width: 49%;
+    margin-right: 2%;
 }
 
 .col2last {
-    width: 45.45%;
-    float: left;
-    margin-right: 0;
+    margin-right: 0%;
+}
+#custom_header a{
+    display:inline-block;
 }
 

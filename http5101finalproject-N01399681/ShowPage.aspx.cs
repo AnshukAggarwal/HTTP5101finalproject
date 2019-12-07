@@ -58,15 +58,16 @@ namespace http5101finalproject_N01399681
 
             if (!valid)
             {
-                page.InnerHtml = "There was an error finding that student.";
+                page.InnerHtml = "There was an error finding that page.";
             }
         }
-        /*Update the Page*/
+
         protected void Update_Page(object sender, EventArgs e)
         {
-            Response.Redirect("ContentPage.aspx");
-            /*I will create a new page to display details of a particular page. On that page I want to have a done button which will 
-             * redirect to list pages*/
+            string pageid = Request.QueryString["pageid"];
+            Response.Redirect(("ContentPage.aspx?pageid=" + pageid));
         }
+
+
     }
 }

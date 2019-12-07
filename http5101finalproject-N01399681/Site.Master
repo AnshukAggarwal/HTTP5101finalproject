@@ -1,4 +1,5 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="http5101finalproject_N01399681.SiteMaster" %>
+<%@ Register Src="~/customheader.ascx" TagName="CustomHeader" TagPrefix="asp"%>
 
 <!DOCTYPE html>
 
@@ -10,15 +11,13 @@
 <body>
     <header id="header" class="flex" runat="server">
         <div id="Site-Name">
-            <p>Word Not Press</p>
+            <p><a href="ListPages.aspx">Word Not Press</a></p>
         </div>
-            <nav>
-                <ul class="flex">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                </ul>
-            </nav>
+            
     </header>
+        <div>
+            <asp:CustomHeader runat="server"></asp:CustomHeader>
+        </div>
     <div>
         <form id="form1" runat="server">
             <asp:ContentPlaceHolder ID="body" runat="server">

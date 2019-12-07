@@ -186,5 +186,35 @@ namespace http5101finalproject_N01399681
             }
             Connect.Close();
         }
-    }
+        public void UpdatePage(int pageid, HTTPpage new_page)
+
+        {
+            Debug.WriteLine("I am inside the update page method");
+
+            string query="update pages set PAGETITLE='{0}', PAGEBODY='{1}' where PAGEID='{2}'";
+            query = String.Format(query, new_page.GetPtitle(), new_page.GetPbody(),pageid);
+            Debug.WriteLine("This is the" + query);
+            MySqlConnection Connect = new MySqlConnection(ConnectionString);
+            MySqlCommand cmd = new MySqlCommand(query, Connect);
+            try
+            {
+                //Try to update a student with the information provided to us.
+                Connect.Open();
+                cmd.ExecuteNonQuery();
+                Debug.WriteLine("Executed query " + query);
+            }
+            catch (Exception ex)
+            {
+                //If that doesn't seem to work, check Debug>Windows>Output for the below message
+                Debug.WriteLine("Something went wrong in the UpdatePage Method!");
+                Debug.WriteLine(ex.ToString());
+            }
+
+            Connect.Close();
+
+
+
+        }
+    } 
+         
     }

@@ -6,6 +6,6 @@
         Page Body: <asp:TextBox id="page_body" runat="server"></asp:TextBox><br />
     </div>
     <div>
-        <%--<asp:Button runat="server" text="Done" OnClick="Done_Update"/>--%>
+        <asp:Button Text="Update Page" OnClick="Update_Page" runat="server" />
     </div>
 </asp:Content>
